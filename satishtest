@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "This is Satish"
+DATE=$(date +"%d-%b-%y")
+touch $DATE.txt
+echo "This is first File" > $DATE.txt
+exit
